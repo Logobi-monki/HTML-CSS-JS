@@ -274,54 +274,6 @@ body.spin {
     height: auto;
   }
 
-  main {
-    padding: 16px;
-  }
-
-  .main-title {
-    font-size: 26px;
-  }
-
-  .sub-title {
-    font-size: 18px;
-  }
-
-  p, li {
-    font-size: 16px;
-  }
-
-  .text-image,
-  .image-text,
-  .fimage-text {
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .text-image p,
-  .image-text p,
-  .fimage-text p {
-    width: 100%;
-  }
-
-  .img {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  #dia {
-    width: 100%;
-  }
-
-  .header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .top-nav {
-    justify-content: center;
-  }
-
 }
 
 @media (max-width: 450px) {
