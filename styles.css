@@ -217,6 +217,34 @@ p, li {
   object-fit: cover;
 }
 
+.lang-container {
+  justify-content: flex-end;
+}
+
+.lang-button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: black;
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.lang-button:hover {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+  transform: scale(1.05);
+  transform: translateY(-2px);
+}
+
+
 @keyframes ball-spin {
   from { transform: rotate(0deg) scale(1.32); }
   to { transform: rotate(360deg) scale(1); }
@@ -273,7 +301,58 @@ body.spin {
     width: eval(100vw / 110%);
     height: auto;
   }
+  
+    main {
+    padding: 16px;
+  }
 
+  .main-title {
+    font-size: 26px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  p, li {
+    font-size: 16px;
+  }
+
+  .text-image,
+  .image-text,
+  .fimage-text {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .text-image p,
+  .image-text p,
+  .fimage-text p {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #dia {
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .top-nav {
+    justify-content: center;
+  }
+  
+  .lang-button {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 450px) {
